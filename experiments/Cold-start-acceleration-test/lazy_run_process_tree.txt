@@ -1,0 +1,23 @@
+Process Tree Relationship for overlaybd-snaps (Root PID: 23873)
+Generated at: Mon Nov 24 00:43:42 CST 2025
+==================================================
+overlaybd-snaps(23873)-+-{overlaybd-snaps}(23875)
+                       |-{overlaybd-snaps}(23876)
+                       |-{overlaybd-snaps}(23877)
+                       |-{overlaybd-snaps}(23878)
+                       |-{overlaybd-snaps}(23884)
+                       |-{overlaybd-snaps}(23885)
+                       |-{overlaybd-snaps}(23886)
+                       |-{overlaybd-snaps}(23897)
+                       |-{overlaybd-snaps}(24200)
+                       |-{overlaybd-snaps}(24201)
+                       |-{overlaybd-snaps}(24202)
+                       |-{overlaybd-snaps}(26386)
+                       |-{overlaybd-snaps}(26387)
+                       |-{overlaybd-snaps}(28506)
+                       `-{overlaybd-snaps}(50361)
+
+Detailed PID/PPID List:
+Level | PID | PPID | Process Name
+------|-----|------|-------------
+L0  | 23873 | 1 | overlaybd-snaps

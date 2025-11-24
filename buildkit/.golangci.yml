@@ -1,0 +1,55 @@
+run:
+  timeout: 10m
+  skip-files:
+    - ".*\\.pb\\.go$"
+
+  modules-download-mode: vendor
+
+  build-tags:
+    - dfrunsecurity
+    - dfaddgit
+
+linters:
+  enable:
+    - deadcode
+    - depguard
+    - gofmt
+    - goimports
+    - gosimple
+    - revive
+    - govet
+    - importas
+    - ineffassign
+    - misspell
+    - staticcheck
+    - structcheck
+    - typecheck
+    - unused
+    - varcheck
+    - bodyclose
+    - errname
+    - makezero
+    - whitespace
+  disable-all: true
+
+linters-settings:
+  depguard:
+    list-type: blacklist
+    include-go-root: true
+    packages:
+      # The io/ioutil package has been deprecated.
+      # https://go.dev/doc/go1.16#ioutil
+      - io/ioutil
+  importas:
+    alias:
+      - pkg: "github.com/opencontainers/image-spec/specs-go/v1"
+        alias: "ocispecs"
+      - pkg: "github.com/opencontainers/go-digest"
+        alias: "digest"
+    no-unaliased: true
+
+issues:
+  exclude-rules:
+    - linters:
+        - revive
+      text: "stutters"

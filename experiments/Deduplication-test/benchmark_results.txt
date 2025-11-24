@@ -1,0 +1,8 @@
+========================================
+FastCDC vs 固定分块性能对比测试 (高级版)
+========================================
+测试时间: Mon Nov 10 12:05:18 PM UTC 2025
+重复次数: 5
+CSV输出: /home/wfy/DADI_OverlayBD_demo/experiments/fastcdc_benchmark/benchmark_results.csv
+统计摘要: /home/wfy/DADI_OverlayBD_demo/experiments/fastcdc_benchmark/benchmark_summary.csv
+

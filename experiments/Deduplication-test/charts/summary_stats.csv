@@ -1,0 +1,4 @@
+Data Type,Avg Compression Ratio,Avg Space Saving,Avg Decomp Speedup
+Random,100.91%,0.10%,8.31x
+Pattern,0.85%,61.51%,8.58x
+Mixed,7.46%,72.36%,8.79x
