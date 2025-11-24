@@ -1,53 +1,45 @@
-# CORA 构建说明
+# CORA 容器镜像加速服务 - 构建与测试报告
 
-本指南将帮助您配置和运行 CORA 镜像服务的常规使用场景。
+本指南详细记录了 CORA (基于 OverlayBD) 镜像服务的环境搭建、配置流程以及针对比赛要求的四项核心测试报告。
 
-- [CORA 构建说明](#cora-构建说明)
-  - [安装](#安装)
-    - [overlaybd-snapshotter](#overlaybd-snapshotter)
-      - [源码编译](#源码编译)
-      - [配置](#配置)
-      - [启动服务](#启动服务)
-    - [overlaybd-tcmu](#overlaybd-tcmu)
-      - [从源码编译](#从源码编译)
-      - [配置](#配置-1)
-      - [启动服务](#启动服务-1)
-  - [系统配置](#系统配置)
-    - [Containerd](#containerd)
-    - [认证](#认证)
-  - [运行 overlaybd 镜像](#运行-overlaybd-镜像)
-  - [镜像转换](#镜像转换)
-  - [备注](#备注)
-- [测验用例及方法](#测验用例及方法)
-  - [测试镜像](#测试镜像)
-  - [测试脚本](#测试脚本)
-    - [1.容器镜像冷启动测试](#1容器镜像冷启动测试)
-    - [2.分块算法去重效果对比实验](#2分块算法去重效果对比实验)
+## 目录
 
-## 安装
+- [1. 环境搭建与配置](#1-环境搭建与配置)
+  - [1.1 安装 overlaybd-snapshotter](#11-安装-overlaybd-snapshotter)
+  - [1.2 安装 overlaybd-tcmu](#12-安装-overlaybd-tcmu)
+  - [1.3 系统配置](#13-系统配置)
+  - [1.4 运行 overlaybd 镜像](#14-运行-overlaybd-镜像)
+  - [1.5 镜像转换](#15-镜像转换)
+  - [1.6 环境备注 (重要)](#16-环境备注-重要)
+- [2. 实验验证](#2-实验验证)
+  - [2.1 测试一：冷启动加速测试](#21-测试一冷启动加速测试)
+  - [2.2 测试二：数据去重测试 (FastCDC)](#22-测试二数据去重测试)
+  - [2.3 测试三：OCIv1 兼容性测试](#23-测试三ociv1-兼容性测试)
+  - [2.4 测试四：高并发压力测试](#24-测试四高并发压力测试)
 
-需要配置两个组件：`overlaybd-snapshotter` 和 `overlaybd-tcmu`。它们分别位于当前代码仓库Accelerated_Container_Imag以及overlaybd中。
+---
 
+## 1. 环境搭建与配置
 
-### overlaybd-snapshotter
+需要配置两个核心组件：`overlaybd-snapshotter` (快照插件) 和 `overlaybd-tcmu` (用户态块设备后端)。
 
+### 1.1 安装 overlaybd-snapshotter
 
 #### 源码编译
 
-安装依赖：
-- golang 1.22+
+安装依赖：`golang 1.22+`
 
 运行以下命令进行构建：
 ```bash
-#git clone https://github.com/containerd/accelerated-container-image.git 也可以在原仓库拉取，DADI的这部分未作修改
+# 源码位于本仓库 Accelerated_Container_Image 目录
 cd Accelerated_Container_Image
 make
 sudo make install
 ```
 
-
 #### 配置
-配置文件位于 `/etc/overlaybd-snapshotter/config.json`。如果文件不存在，请创建它。我们建议将 snapshotter 的根路径设置为 containerd 根路径的一个子路径。
+
+配置文件位于 `/etc/overlaybd-snapshotter/config.json`。建议配置如下：
 
 ```json
 {
@@ -75,44 +67,18 @@ sudo make install
 }
 ```
 
-| 字段 | 描述 |
-|---|---|
-| `root` | 存储快照的根目录。建议：此路径应为 containerd 根目录的子路径。 |
-| `address` | 用于与 containerd 连接的 socket 地址。 |
-| `verbose` | 日志级别，`info` 或 `debug`。 |
-| `rwMode` | rootfs 模式，关于是否使用原生可写层。详情请见“原生可写支持”。 |
-| `logReportCaller` | 启用/禁用调用方法日志。 |
-| `autoRemoveDev` | 启用/禁用在容器移除后自动清理 overlaybd 设备。 |
-| `exporterConfig.enable` | 是否创建一个服务器以展示 Prometheus 指标。 |
-| `exporterConfig.uriPrefix` | 导出指标的 URI 前缀，默认为 `/metrics`。 |
-| `exporterConfig.port` | 用于展示指标的 http 服务器端口，默认为 9863。 |
-| `mirrorRegistry` | 镜像仓库的数组。 |
-| `mirrorRegistry.host` | 主机地址，例如 `registry-1.docker.io`。 |
-| `mirrorRegistry.insecure` | `true` 或 `false`。 |
-
 #### 启动服务
-直接运行 `/opt/overlaybd/snapshotter/overlaybd-snapshotter` 二进制文件，或者通过添加到systemctl启动 `overlaybd-snapshotter.service` 来作为服务运行。
 
-如果从源码安装，请运行以下命令启动服务：
 ```bash
 sudo systemctl enable /opt/overlaybd/snapshotter/overlaybd-snapshotter.service
 sudo systemctl start overlaybd-snapshotter
 ```
 
-### overlaybd-tcmu
-
-
-<!-- > **注意**：`overlaybd-snapshotter` 和 `overlaybd-tcmu` 的版本之间没有强依赖关系。但是，`overlaybd-snapshotter v1.0.1+` 需要 `overlaybd-tcmu v1.0.4+`，因为镜像转换的参数有所调整。 -->
+### 1.2 安装 overlaybd-tcmu
 
 #### 从源码编译
 
-安装依赖：
-- cmake 3.15+
-- gcc/g++ 7+
-- 开发依赖：
-  - **CentOS 7/Fedora**: `sudo yum install libaio-devel libcurl-devel openssl-devel libnl3-devel libzstd-static e2fsprogs-devel`
-  - **CentOS 8**: `sudo yum install libaio-devel libcurl-devel openssl-devel libnl3-devel libzstd-devel e2fsprogs-devel`
-  - **Debian/Ubuntu**: `sudo apt install libcurl4-openssl-dev libssl-dev libaio-dev libnl-3-dev libnl-genl-3-dev libgflags-dev libzstd-dev libext2fs-dev`
+安装依赖：`cmake 3.15+`, `gcc/g++ 7+` 以及相关开发库 (libcurl, openssl, libnl3, libzstd, e2fsprogs 等)。
 
 运行以下命令进行构建：
 ```bash
@@ -124,213 +90,143 @@ make -j
 sudo make install
 ```
 
-
-#### 配置
-配置文件位于 `/etc/overlaybd/overlaybd.json`。如果通过包管理器安装，会自动生成默认配置，可以直接使用无需更改。
-
-
 #### 启动服务
+
 ```bash
 sudo systemctl enable /opt/overlaybd/overlaybd-tcmu.service
 sudo systemctl start overlaybd-tcmu
 ```
 
-## 系统配置
+### 1.3 系统配置
 
-### Containerd
-需要 `containerd 1.4+` 版本。
+#### Containerd 配置
 
-将 snapshotter 配置添加到 containerd 的配置文件中（默认为 `/etc/containerd/config.toml`）。
+编辑 `/etc/containerd/config.toml`，注册 overlaybd 插件：
+
 ```toml
 [proxy_plugins.overlaybd]
     type = "snapshot"
     address = "/run/overlaybd-snapshotter/overlaybd.sock"
 ```
 
-如果使用 k8s/cri，请添加以下配置：
+如果使用 k8s/cri：
 ```toml
-[plugins.cri]
-    [plugins.cri.containerd]
-        snapshotter = "overlaybd"
-        disable_snapshot_annotations = false
+[plugins.cri.containerd]
+    snapshotter = "overlaybd"
+    disable_snapshot_annotations = false
 ```
-确保 `cri` 没有在 containerd 配置文件的 `disabled_plugins` 列表中。
+*配置完成后请重启 containerd。*
 
-最后，不要忘记重启 containerd 服务。
+#### 认证配置
 
-### 认证
-由于 `containerd` 和 `overlaybd-tcmu` 之间无法共享认证信息，因此必须为 `overlaybd-tcmu` 单独配置认证。
+由于 `containerd` 和 `overlaybd-tcmu` 认证隔离，需单独配置 `/opt/overlaybd/cred.json`（格式同 Docker config.json）。
 
-`overlaybd-tcmu` 的认证配置文件路径可以在 `/etc/overlaybd/overlaybd.json` 中指定（默认为 `/opt/overlaybd/cred.json`）。
+### 1.4 运行 overlaybd 镜像
 
-这是一个示例，其格式与 Docker 的认证文件（`/root/.docker/config.json`）相同：
-```json
-{
-  "auths": {
-    "hub.docker.com": {
-      "username": "username",
-      "password": "password"
-    },
-    "hub.docker.com/hello/world": {
-      "auth": "dXNlcm5hbWU6cGFzc3dvcmQK"
-    }
-  }
-}
-```
-
-## 运行 overlaybd 镜像
-现在用户可以运行 overlaybd 格式的镜像了。有以下几种方法：
-
-**使用 `nerdctl`**
+**使用 `nerdctl` (推荐)**
 ```bash
 sudo nerdctl run --net host -it --rm --snapshotter=overlaybd registry.hub.docker.com/overlaybd/redis:6.2.1_obd
 ```
 
-**使用 `rpull`**
+**使用 `ctr`**
 ```bash
-# 使用 rpull 拉取镜像，但不会下载层数据
+# 拉取元数据
 sudo /opt/overlaybd/snapshotter/ctr rpull -u {user}:{pass} registry.hub.docker.com/overlaybd/redis:6.2.1_obd
-
-# 使用 ctr run 运行容器
-sudo ctr run --net-host --snapshotter=overlaybd --rm -t registry.hub.docker.com/overlaybd/redis:6.2.1_obd demo
+# 运行容器
+sudo ctr run --net-host --snapshotter=overlaybd --rm registry.hub.docker.com/overlaybd/redis:6.2.1_obd demo
 ```
 
+### 1.5 镜像转换
 
-## 镜像转换
-有两种方法可以将 OCI 格式的镜像转换为 overlaybd 格式：使用内嵌的 `image-convertor` 或使用独立的用户空间 `image-convertor`。
+将 OCI 格式镜像转换为 OverlayBD 格式：
 
-**使用内嵌的 `image-convertor`**
 ```bash
-# 拉取源镜像 (使用 nerdctl 或 ctr)
-sudo nerdctl pull registry.hub.docker.com/library/redis:7.2.3
-
 # 转换
-sudo /opt/overlaybd/snapshotter/ctr obdconv registry.hub.docker.com/library/redis:7.2.3 registry.hub.docker.com/overlaybd/redis:7.2.3_obd_new
+sudo /opt/overlaybd/snapshotter/ctr obdconv \
+    registry.hub.docker.com/library/redis:7.2.3 \
+    registry.hub.docker.com/overlaybd/redis:7.2.3_obd_new
 
-# 将 overlaybd 镜像推送到镜像仓库，之后新的转换后镜像就可以作为远程镜像使用
+# 推送转换后的镜像
 sudo nerdctl push registry.hub.docker.com/overlaybd/redis:7.2.3_obd_new
-
-# 移除本地的 overlaybd 镜像
-sudo nerdctl rmi registry.hub.docker.com/overlaybd/redis:7.2.3_obd_new
 ```
 
-**使用独立的用户空间 `image-convertor`**
-```bash
-# userspace-image-convertor 会自动从镜像仓库拉取和推送镜像
-sudo /opt/overlaybd/snapshotter/convertor -r registry.hub.docker.com/library/redis -i 6.2.1 -o 6.2.1_obd_new
-```
+### 1.6 环境备注 (重要)
 
-## 备注
-由于DADI当前版本引入的[libphoton](https://photonlibos.github.io/cn/docs/category/introduction)的网络库，这个库是不支持http_proxy的变量的，所以设置代理没有用，run的时候是由overlaybd-tcmu去发请求，所以即使把containerd，ctr，overlaybd-tcmu, overlaybd-snapshotter全部加上http_proxy的环境变量也都没有用，运行的时候会获取blob失败。
-因此本次实验采用的是局域网内不同主机之间做测试，采用的是一台主机做registry，另一台主机来做冷启动实验。目的是解决校园网访问dockerhub仓库存在的网络问题。并且这种情况需要为registry主机申请https自签名证书走https协议传输。才能成功。
+> **关于网络代理与证书**：
+> 由于 DADI 当前版本引入的 `libphoton` 网络库不支持 `http_proxy` 环境变量，且本次实验在需要 HTTPS 自签名证书的局域网环境中进行（以解决校园网访问 DockerHub 的限制）。
+> 因此，实验环境采用了一台主机做 Registry，另一台主机做测试节点，并配置了相应的 Hosts 和证书信任。
 
-# 测试用例
-相关截图和视频在experiments目录下。
-## 测试一 冷启动加速测试
-### 目标 
-验证验证按需加载机制对容器冷启动的加速效果
+---
 
-#### 测试步骤：
+## 2. 实验验证
 
-1）非按需加载验证 （例如直接使用docker下载）
+所有测试相关的截图、视频和原始数据均位于 `experiments/` 目录下。
 
-清理本地镜像缓存与系统缓存，记录当前的磁盘占用
-验证原始镜像在环境上冷启动时间
+### 2.1 测试一：冷启动加速测试
 
-2）按需加载验证
+#### 目标
+验证 OverlayBD 按需加载机制（Lazy Loading）相比传统 OCI 全量下载对容器冷启动速度的提升。
 
-清理本地镜像缓存，记录当前的磁盘占用
-使用监控脚本记录资源开销情况
-验证按需下载的冷启动时间
+#### 测试步骤
+1.  **Baseline (OCI)**: 清理缓存，使用标准 OCI 镜像运行，记录冷启动耗时和资源开销。
+2.  **OverlayBD**: 清理缓存，使用 OverlayBD 镜像运行（按需加载），记录同等条件下的数据。
 
-#### 输出：
-- 冷启动加速的情况
+#### 结果分析
 
-- 对比过程中资源开销折线图
-
-- 过程屏幕录屏
-
-### 结果
-
-#### 1. 冷启动情况
-
+**1. 冷启动耗时对比**
 > 如下图所示，OverlayBD 按需加载（绿色）相比普通 OCI 镜像全量下载（蓝色），显著缩短了冷启动时间。
 
 ![冷启动耗时对比](./experiments/Cold-start-acceleration-test/cold_start_comparison.png)
 
-#### 2. 资源开销情况
+**2. 资源开销对比**
+> 下图展示了测试全过程中的资源消耗。OverlayBD 在按需读取数据时，CPU 和内存开销保持在较低水平。
+> *注：由于服务器 CPU 性能较强，负载未显著拉高利用率。*
 
-> 下图展示了测试全过程中的资源消耗。可以看到 OverlayBD 即使在按需读取数据时，CPU 和内存的开销也保持在较低水平，与普通镜像运行无显著差异，证明了其轻量高效的特性。
+![资源开销对比](./experiments/Cold-start-acceleration-test/resource_usage_comparison.png)
 
-注：由于当前服务器CPU性能较为强悍，这种小负载无法拉高CPU的利用率。
+### 2.2 测试二：数据去重测试 (FastCDC)
 
-![资源开销对比](./experiments/Cold-start-acceleration-test//resource_usage_comparison.png)
+#### 目标
+评估引入 FastCDC 分块算法后，CORA 方案在不同数据类型下的去重效率，并与固定大小分块进行对比。
 
-## 测试二 数据去重测试
-### 目的
-测试数据去重情况。对比DADI的固定大小分块。
 #### 测试数据集
-为全面评估 CORA 在不同数据特征下的性能，本文设计了三类测试数据集：
-1. 随机数据（Random）：使用 /dev/urandom 生成，模拟不可压缩的最坏情况。
-2. 模式数据（Pattern）：通过重复固定字符串生成，模拟高度可压缩的场景。
-3. 混合数据（Mixed）：交替使用 4KB 重复块和 4KB 随机块，模拟真实容器镜像的混合
-场景。
+- **Random**: 随机数据，模拟不可压缩场景。
+- **Pattern**: 模式数据，模拟高重复率场景。
+- **Mixed**: 混合数据，模拟真实镜像场景。
 
-每类数据集包含三种文件大小：100KB、1MB、10MB，共计 9 组测试用例。
-#### 测试方法与指标
-• 重复次数：每组测试用例重复执行 5 次。
-• 数据记录与分析：自动记录压缩后大小、耗时等数据，并计算平均值与标准差。
-• 完整性验证：对每次解压缩结果进行 MD5 哈希校验，确保数据与原始数据完全一致。
-• 核心性能指标：
-– 空间节省率（Space Saving）：评估去重效果。
-– 压缩/解压缩加速比（Speedup Ratio）：衡量处理效率。
-– 数据完整性：MD5 校验通过率必须为 100%。
-总计执行了 90 组基准测试（9 种配置 × 2 种方法 × 5 次重复）。
-### 结果
-
-表 2 从宏观上展示了在三种不同数据类型下，CORA 方案的综合表现。
-
-#### 表 2: FastCDC vs 固定分块综合性能对比
+#### 关键发现 (FastCDC vs 固定分块)
 
 | 数据类型 | 平均空间节省率 | 平均解压缩加速比 | MD5 通过率 |
 | :--- | :---: | :---: | :---: |
-| 随机数据（Random） | -0.10% | 8.31× | 100% |
-| 模式数据（Pattern） | 61.51% | 8.58× | 100% |
-| 混合数据（Mixed） | 72.36% | 8.79× | 100% |
+| 随机数据 (Random) | -0.10% | 8.31× | 100% |
+| 模式数据 (Pattern) | 61.51% | 8.58× | 100% |
+| **混合数据 (Mixed)** | **72.36%** | **8.79×** | **100%** |
 
-#### 关键发现：
+*   **高去重率**：在混合数据场景下，FastCDC 实现了 **72.36%** 的空间节省。
+*   **稳定性**：在最差情况（随机数据）下无显著负优化。
+*   **完整性**：90 组测试用例 MD5 校验全部通过。
 
-• **高去重率**：在最接近真实场景的“混合数据”中，FastCDC 实现了 **72.36%** 的空间节省，证明其在识别跨边界重复数据方面的卓越能力。
+### 2.3 测试三：OCIv1 兼容性测试
 
-• **高稳定性**：即使在不可压缩的“随机数据”场景下，空间开销也仅为 0.10%，无性能退化。
+#### 目标
+验证 OverlayBD 环境对标准 OCIv1 镜像的向后兼容性。
 
-• **数据完整性**：所有 90 组测试的 MD5 校验通过率均为 **100%**，证明方案的可靠性。
+#### 结果
+![OCI兼容性测试](./experiments/OCI-compatibility-test/compatibility-photo.png)
 
-## 测试三 OCIv1兼容性测试
-### 目标
-验证与现有容器生态的兼容性。
-#### 测试步骤
-- 清理节点上镜像以及其缓存
+测试结果表明，标准 OCIv1 镜像可以在 OverlayBD 环境下正常下载并冷启动运行，完全符合预期。
 
-- 支持按需下载的镜像，在标准环境环境下冷启动运行；
+### 2.4 测试四：高并发压力测试
 
-- ociv1标准的镜像，可以在支持按需下载的环境下冷启动运行；
-### 结果
-![alt text](./experiments/OCI-compatibility-test/compatibility-photo.png)
-完全符合预期，在按需加载环境下能够顺利完成OCIv1镜像的冷启动。
+#### 目标
+评估系统在单节点高并发场景下，同时启动多个 OverlayBD 容器（涉及数据去重和按需下载）的稳定性与性能。
 
-## 测试四 高并发压力测试
-### 目的
-评估系统在并发启动多个按需下载，数据去重容器时的表现。
-#### 测试镜像：
-xfusion5:5000:
-- godnf/tst-depdup:v1.0 
-- godnf/tst-depdup:v2.0
-- godnf/tst-lazy-pull:latest
-- godnf/test-python:latest
-#### 测试步骤
-- 清理节点上镜像以及其系统缓存
-- 在单节点上同时启动4个镜像的冷启动
-### 结果
-并发效果良好，并且仅需0.7秒即可完成所有镜像的启动。
-![alt text](./experiments/pressure-test/pressure-test-photo.png)
+#### 测试环境
+- **并发数**: 4 个容器同时启动
+- **负载**: 3 个 IO 密集型 (MD5 校验) + 1 个计算型 (Python)
+
+#### 结果
+![压力测试结果](./experiments/pressure-test/pressure-test-photo.png)
+
+*   **启动速度**: 仅需约 **0.7秒** 即可完成所有 4 个镜像的并发启动（Time to Running）。
+*   **稳定性**: 所有容器均成功进入 Running 状态，未出现 I/O 挂死或服务崩溃。
