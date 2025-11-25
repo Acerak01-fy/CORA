@@ -66,7 +66,7 @@
 
 ### 测试环境
 - **并发数**: 4 个容器同时启动
-- **负载**: 3 个 IO 密集型 (MD5 校验) + 1 个计算型 (Python)
+- **负载**:  所有容器都启动完毕，处于running状态。
 
 ### 结果
 ![压力测试结果](./experiments/pressure-test/pressure-test-photo.png)
