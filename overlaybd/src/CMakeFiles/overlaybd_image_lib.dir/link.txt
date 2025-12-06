@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../build/output/liboverlaybd_image_lib.a CMakeFiles/overlaybd_image_lib.dir/image_file.cpp.o CMakeFiles/overlaybd_image_lib.dir/image_service.cpp.o CMakeFiles/overlaybd_image_lib.dir/switch_file.cpp.o CMakeFiles/overlaybd_image_lib.dir/bk_download.cpp.o CMakeFiles/overlaybd_image_lib.dir/prefetch.cpp.o CMakeFiles/overlaybd_image_lib.dir/tools/sha256file.cpp.o CMakeFiles/overlaybd_image_lib.dir/tools/comm_func.cpp.o
+/usr/bin/ranlib ../build/output/liboverlaybd_image_lib.a

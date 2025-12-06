@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../build/output/libtar_lib.a CMakeFiles/tar_lib.dir/header.cpp.o CMakeFiles/tar_lib.dir/libtar.cpp.o CMakeFiles/tar_lib.dir/tar_file.cpp.o CMakeFiles/tar_lib.dir/whiteout.cpp.o
+/usr/bin/ranlib ../../../build/output/libtar_lib.a

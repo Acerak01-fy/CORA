@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../build/output/libgzip_cache_lib.a CMakeFiles/gzip_cache_lib.dir/cached_fs.cpp.o
+/usr/bin/ranlib ../../../../build/output/libgzip_cache_lib.a

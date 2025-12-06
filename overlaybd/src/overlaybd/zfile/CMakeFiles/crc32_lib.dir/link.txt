@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../build/output/libcrc32_lib.a CMakeFiles/crc32_lib.dir/crc32/crc32c.cpp.o
+/usr/bin/ranlib ../../../build/output/libcrc32_lib.a

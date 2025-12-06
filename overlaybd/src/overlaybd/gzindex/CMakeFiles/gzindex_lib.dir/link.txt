@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../build/output/libgzindex_lib.a CMakeFiles/gzindex_lib.dir/gzfile.cpp.o CMakeFiles/gzindex_lib.dir/gzip_index_create.cpp.o
+/usr/bin/ranlib ../../../build/output/libgzindex_lib.a

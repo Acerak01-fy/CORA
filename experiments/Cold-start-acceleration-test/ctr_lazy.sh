@@ -20,6 +20,12 @@ rm /var/log/overlaybd.log 2>/dev/null
 rm nohup.out 2>/dev/null
 sleep 1
 
+# === 彻底清理 OverlayBD 缓存 ===
+rm -rf /opt/overlaybd/registry_cache/*
+# 如果有 snapshotter 数据目录，也建议清理 (请根据实际挂载点调整)
+# rm -rf /var/lib/containerd/io.containerd.snapshotter.v1.overlaybd/*
+# =============================
+
 systemctl start overlaybd-tcmu
 nohup proxychains /opt/overlaybd/snapshotter/ctr &
 sleep 1
@@ -36,7 +42,9 @@ CLEAN_START=$(date +%s.%N)
 CTR="/opt/overlaybd/snapshotter/ctr"
 #IMAGE="docker.io/overlaybd/redis:7.2.3_obd"
 #IMAGE="xfusion5:5000/redis:7.2.3_obd"
-IMAGE="xfusion5:5000/tst-lazy-pull:latest_obd"
+#IMAGE="xfusion5:5000/tst-lazy-pull:latest_obd"
+IMAGE="xfusion5:5000/tst-lazy-pull:latest_wfy_obd"
+#IMAGE="xfusion5:5000/wordpress:5.6.2_obd"
 #IMAGE="xfusion5:5000/tst-lazy-pull:latest"
 
 $CTR i rm $IMAGE 2>/dev/null
@@ -72,8 +80,8 @@ RUN_START=$(date +%s.%N)
 #$CTR run --net-host --snapshotter=overlaybd --rm -t $IMAGE demo /bin/sh -c "echo 'OverlayBD Lazy Pulling Works!'"
 
 # 示例 2: 查看系统版本
-$CTR run --net-host --snapshotter=overlaybd --rm $IMAGE demo sh -c "cd /testdir && ./md5check.sh random_file_1.dat-md5.txt ."
-
+$CTR run --net-host --snapshotter=overlaybd --rm $IMAGE demo sh -c "cd /testdir && ./md5check.sh random_file_500M_1.dat-md5.txt ."
+#$CTR run --net-host --snapshotter=overlaybd --rm $IMAGE wordpress
 # 示例 3: 查看目录结构 (会触发目录内文件的元数据读取)
 # $CTR run --net-host --snapshotter=overlaybd --rm -t $IMAGE demo ls -R /app
 

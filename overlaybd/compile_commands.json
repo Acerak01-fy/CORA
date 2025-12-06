@@ -1,0 +1,1424 @@
+[
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/common/alog.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/alog.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/alog.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/common/alog.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/common/checksum/crc32c.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/checksum/crc32c.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/checksum/crc32c.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/common/checksum/crc32c.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/common/estring.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/estring.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/estring.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/common/estring.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/common/event-loop.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/event-loop.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/event-loop.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/common/event-loop.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/common/executor/executor.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/executor/executor.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/executor/executor.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/common/executor/executor.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/common/expirecontainer.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/expirecontainer.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/expirecontainer.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/common/expirecontainer.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/common/identity-pool.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/identity-pool.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/identity-pool.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/common/identity-pool.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/common/iovector.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/iovector.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/iovector.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/common/iovector.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/common/memory-stream/memory-stream.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/memory-stream/memory-stream.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/memory-stream/memory-stream.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/common/memory-stream/memory-stream.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/common/perf_counter.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/perf_counter.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/perf_counter.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/common/perf_counter.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/common/ring.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/ring.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/ring.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/common/ring.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/common/stream-messenger/messenger.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/stream-messenger/messenger.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/stream-messenger/messenger.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/common/stream-messenger/messenger.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/common/utility.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/utility.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/utility.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/common/utility.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/common/uuid4.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/uuid4.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/common/uuid4.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/common/uuid4.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/fs/aligned-file.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/aligned-file.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/aligned-file.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/fs/aligned-file.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/fs/async_filesystem.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/async_filesystem.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/async_filesystem.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/fs/async_filesystem.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/fs/exportfs.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/exportfs.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/exportfs.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/fs/exportfs.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/fs/filecopy.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/filecopy.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/filecopy.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/fs/filecopy.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/fs/httpfs/httpfs.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/httpfs/httpfs.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/httpfs/httpfs.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/fs/httpfs/httpfs.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/fs/httpfs/httpfs_v2.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/httpfs/httpfs_v2.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/httpfs/httpfs_v2.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/fs/httpfs/httpfs_v2.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/fs/localfs.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/localfs.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/localfs.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/fs/localfs.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/fs/path.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/path.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/path.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/fs/path.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/fs/subfs.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/subfs.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/subfs.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/fs/subfs.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/fs/throttled-file.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/throttled-file.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/throttled-file.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/fs/throttled-file.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/fs/virtual-file.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/virtual-file.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/virtual-file.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/fs/virtual-file.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/fs/xfile.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/xfile.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/xfile.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/fs/xfile.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/io/signal.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/io/signal.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/io/signal.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/io/signal.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/net/basic_socket.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/basic_socket.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/basic_socket.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/net/basic_socket.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/net/curl.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/curl.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/curl.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/net/curl.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/net/datagram_socket.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/datagram_socket.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/datagram_socket.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/net/datagram_socket.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/net/http/body.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/http/body.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/http/body.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/net/http/body.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/net/http/client.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/http/client.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/http/client.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/net/http/client.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/net/http/cookie_jar.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/http/cookie_jar.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/http/cookie_jar.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/net/http/cookie_jar.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/net/http/headers.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/http/headers.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/http/headers.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/net/http/headers.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/net/http/message.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/http/message.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/http/message.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/net/http/message.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/net/http/server.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/http/server.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/http/server.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/net/http/server.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/net/http/status.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/http/status.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/http/status.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/net/http/status.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/net/http/url.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/http/url.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/http/url.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/net/http/url.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/net/kernel_socket.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/kernel_socket.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/kernel_socket.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/net/kernel_socket.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/net/pooled_socket.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/pooled_socket.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/pooled_socket.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/net/pooled_socket.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/net/security-context/tls-stream.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/security-context/tls-stream.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/security-context/tls-stream.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/net/security-context/tls-stream.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/net/utils.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/utils.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/net/utils.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/net/utils.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/photon.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/photon.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/photon.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/photon.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/rpc/out-of-order-execution.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/rpc/out-of-order-execution.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/rpc/out-of-order-execution.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/rpc/out-of-order-execution.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/rpc/rpc.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/rpc/rpc.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/rpc/rpc.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/rpc/rpc.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/thread/std-compat.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/thread/std-compat.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/thread/std-compat.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/thread/std-compat.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/thread/thread-key.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/thread/thread-key.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/thread/thread-key.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/thread/thread-key.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/thread/thread-pool.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/thread/thread-pool.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/thread/thread-pool.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/thread/thread-pool.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/thread/thread.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/thread/thread.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/thread/thread.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/thread/thread.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/thread/workerpool.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/thread/workerpool.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/thread/workerpool.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/thread/workerpool.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/io/aio-wrapper.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/io/aio-wrapper.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/io/aio-wrapper.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/io/aio-wrapper.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/io/epoll.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/io/epoll.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/io/epoll.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/io/epoll.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/fs/extfs/extfs.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/extfs/extfs.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/extfs/extfs.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/fs/extfs/extfs.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/fs/extfs/extfs_io.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/extfs/extfs_io.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/extfs/extfs_io.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/fs/extfs/extfs_io.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build",
+  "command": "/usr/bin/c++ -DFUSE_USE_VERSION=29 -D_FILE_OFFSET_BITS=64 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-src/build/libext2fs/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -faligned-new -o CMakeFiles/photon_obj.dir/fs/extfs/mkfs.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/extfs/mkfs.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/fs/extfs/mkfs.cpp",
+  "output": "_deps/photon-build/CMakeFiles/photon_obj.dir/fs/extfs/mkfs.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build/third_party",
+  "command": "/usr/bin/c++    -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -o CMakeFiles/easy_weak.dir/easy_weak/easy_weak.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/third_party/easy_weak/easy_weak.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/third_party/easy_weak/easy_weak.cpp",
+  "output": "_deps/photon-build/third_party/CMakeFiles/easy_weak.dir/easy_weak/easy_weak.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-build/third_party",
+  "command": "/usr/bin/c++    -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -Wno-packed-bitfield-compat -msse4.2 -mcrc32 -O2 -DNDEBUG -std=c++14 -fPIC -Wall -o CMakeFiles/fstack_weak.dir/fstack_weak/fstack_weak.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/third_party/fstack_weak/fstack_weak.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/third_party/fstack_weak/fstack_weak.cpp",
+  "output": "_deps/photon-build/third_party/CMakeFiles/fstack_weak.dir/fstack_weak/fstack_weak.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-build",
+  "command": "/usr/bin/c++  -I/usr/include/libnl3 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -fpic -fpermissive -Wall -Werror=sign-compare -std=gnu++14 -o CMakeFiles/tcmu_static.dir/configfs.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-src/configfs.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-src/configfs.cpp",
+  "output": "_deps/tcmu-build/CMakeFiles/tcmu_static.dir/configfs.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-build",
+  "command": "/usr/bin/c++  -I/usr/include/libnl3 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -fpic -fpermissive -Wall -Werror=sign-compare -std=gnu++14 -o CMakeFiles/tcmu_static.dir/api.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-src/api.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-src/api.cpp",
+  "output": "_deps/tcmu-build/CMakeFiles/tcmu_static.dir/api.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-build",
+  "command": "/usr/bin/c++  -I/usr/include/libnl3 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -fpic -fpermissive -Wall -Werror=sign-compare -std=gnu++14 -o CMakeFiles/tcmu_static.dir/libtcmu.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-src/libtcmu.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-src/libtcmu.cpp",
+  "output": "_deps/tcmu-build/CMakeFiles/tcmu_static.dir/libtcmu.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-build",
+  "command": "/usr/bin/c++  -I/usr/include/libnl3 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -fpic -fpermissive -Wall -Werror=sign-compare -std=gnu++14 -o CMakeFiles/tcmu_static.dir/scsi.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-src/scsi.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-src/scsi.cpp",
+  "output": "_deps/tcmu-build/CMakeFiles/tcmu_static.dir/scsi.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/contrib/graphbuilder.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/contrib/graphbuilder.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/contrib/graphbuilderadapter.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/contrib/graphbuilderadapter.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/binary.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/binary.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/binary.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/convert.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/convert.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/convert.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/depthguard.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/depthguard.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/directives.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/directives.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/directives.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/emit.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/emit.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/emit.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/emitfromevents.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/emitfromevents.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/emitter.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/emitter.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/emitterstate.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/emitterstate.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/emitterutils.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/emitterutils.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/exceptions.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/exceptions.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/exp.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/exp.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/exp.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/memory.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/memory.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/memory.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/node.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/node.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/node.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/node_data.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/node_data.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/nodebuilder.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/nodebuilder.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/nodeevents.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/nodeevents.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/null.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/null.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/null.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/null.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/ostream_wrapper.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/ostream_wrapper.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/parse.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/parse.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/parse.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/parser.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/parser.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/parser.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/regex_yaml.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/regex_yaml.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/scanner.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/scanner.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/scanscalar.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/scanscalar.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/scantag.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/scantag.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/scantoken.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/scantoken.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/simplekey.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/simplekey.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/singledocparser.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/singledocparser.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/stream.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/stream.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/stream.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -fPIC -o CMakeFiles/yaml-cpp.dir/src/tag.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/tag.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/src/tag.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build/util",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/util/sandbox.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/util/sandbox.cpp",
+  "output": "_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build/util",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/util/parse.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/util/parse.cpp",
+  "output": "_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-build/util",
+  "command": "/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/yaml-cpp-read.dir/read.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/util/read.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/util/read.cpp",
+  "output": "_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/overlaybd_image_lib.dir/image_file.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/image_file.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/image_file.cpp",
+  "output": "src/CMakeFiles/overlaybd_image_lib.dir/image_file.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/overlaybd_image_lib.dir/image_service.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/image_service.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/image_service.cpp",
+  "output": "src/CMakeFiles/overlaybd_image_lib.dir/image_service.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/overlaybd_image_lib.dir/switch_file.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/switch_file.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/switch_file.cpp",
+  "output": "src/CMakeFiles/overlaybd_image_lib.dir/switch_file.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/overlaybd_image_lib.dir/bk_download.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/bk_download.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/bk_download.cpp",
+  "output": "src/CMakeFiles/overlaybd_image_lib.dir/bk_download.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/overlaybd_image_lib.dir/prefetch.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/prefetch.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/prefetch.cpp",
+  "output": "src/CMakeFiles/overlaybd_image_lib.dir/prefetch.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/overlaybd_image_lib.dir/tools/sha256file.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/tools/sha256file.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/tools/sha256file.cpp",
+  "output": "src/CMakeFiles/overlaybd_image_lib.dir/tools/sha256file.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/overlaybd_image_lib.dir/tools/comm_func.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/tools/comm_func.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/tools/comm_func.cpp",
+  "output": "src/CMakeFiles/overlaybd_image_lib.dir/tools/comm_func.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-src -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/usr/include/libnl3  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/overlaybd-tcmu.dir/main.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/main.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/main.cpp",
+  "output": "src/CMakeFiles/overlaybd-tcmu.dir/main.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/registryfs",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/registryfs_lib.dir/registryfs.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/registryfs/registryfs.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/registryfs/registryfs.cpp",
+  "output": "src/overlaybd/registryfs/CMakeFiles/registryfs_lib.dir/registryfs.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/registryfs",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/registryfs_lib.dir/registryfs_v2.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/registryfs/registryfs_v2.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/registryfs/registryfs_v2.cpp",
+  "output": "src/overlaybd/registryfs/CMakeFiles/registryfs_lib.dir/registryfs_v2.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/lsmt",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/lsmt_lib.dir/file.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/lsmt/file.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/lsmt/file.cpp",
+  "output": "src/overlaybd/lsmt/CMakeFiles/lsmt_lib.dir/file.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/lsmt",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/lsmt_lib.dir/index.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/lsmt/index.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/lsmt/index.cpp",
+  "output": "src/overlaybd/lsmt/CMakeFiles/lsmt_lib.dir/index.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/lsmt/test",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/include -I/googletest/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/lsmt_test.dir/test.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/lsmt/test/test.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/lsmt/test/test.cpp",
+  "output": "src/overlaybd/lsmt/test/CMakeFiles/lsmt_test.dir/test.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c  -fpic -Wall -Werror=sign-compare -Wno-error -Wno-sign-compare -Wno-unused-variable -DFASTCDC_LIB_ONLY -o CMakeFiles/fastcdc_lib.dir/__/__/__/FastCDC-c/fastcdc.c.o -c /root/DADI_OverlayBD_demo/overlaybd/FastCDC-c/fastcdc.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c/fastcdc.c",
+  "output": "src/overlaybd/zfile/CMakeFiles/fastcdc_lib.dir/__/__/__/FastCDC-c/fastcdc.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++17 -msse4.2 -mcrc32 -o CMakeFiles/crc32_lib.dir/crc32/crc32c.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/crc32/crc32c.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/crc32/crc32c.cpp",
+  "output": "src/overlaybd/zfile/CMakeFiles/crc32_lib.dir/crc32/crc32c.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/zfile_lib.dir/compressor.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/compressor.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/compressor.cpp",
+  "output": "src/overlaybd/zfile/CMakeFiles/zfile_lib.dir/compressor.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/zfile_lib.dir/fastcdc_wrapper.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/fastcdc_wrapper.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/fastcdc_wrapper.cpp",
+  "output": "src/overlaybd/zfile/CMakeFiles/zfile_lib.dir/fastcdc_wrapper.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/zfile_lib.dir/zfile.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/zfile.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/zfile.cpp",
+  "output": "src/overlaybd/zfile/CMakeFiles/zfile_lib.dir/zfile.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c  -fpic -Wall -Werror=sign-compare -msse4.2 -mcrc32 -o CMakeFiles/zfile_lib.dir/lz4/lz4-qat.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/lz4/lz4-qat.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/lz4/lz4-qat.c",
+  "output": "src/overlaybd/zfile/CMakeFiles/zfile_lib.dir/lz4/lz4-qat.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c  -fpic -Wall -Werror=sign-compare -msse4.2 -mcrc32 -o CMakeFiles/zfile_lib.dir/lz4/lz4.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/lz4/lz4.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/lz4/lz4.c",
+  "output": "src/overlaybd/zfile/CMakeFiles/zfile_lib.dir/lz4/lz4.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c  -fpic -Wall -Werror=sign-compare -msse4.2 -mcrc32 -o CMakeFiles/zfile_lib.dir/lz4/test.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/lz4/test.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/lz4/test.c",
+  "output": "src/overlaybd/zfile/CMakeFiles/zfile_lib.dir/lz4/test.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/test",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/include -I/googletest/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/zfile_test.dir/test.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/test/test.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/zfile/test/test.cpp",
+  "output": "src/overlaybd/zfile/test/CMakeFiles/zfile_test.dir/test.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/cache_lib.dir/cache.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/cache.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/cache.cpp",
+  "output": "src/overlaybd/cache/CMakeFiles/cache_lib.dir/cache.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/cache_lib.dir/cached_fs.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/cached_fs.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/cached_fs.cpp",
+  "output": "src/overlaybd/cache/CMakeFiles/cache_lib.dir/cached_fs.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/cache_lib.dir/store.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/store.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/store.cpp",
+  "output": "src/overlaybd/cache/CMakeFiles/cache_lib.dir/store.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/full_file_cache",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/full_file_cache_lib.dir/cache_pool.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/full_file_cache/cache_pool.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/full_file_cache/cache_pool.cpp",
+  "output": "src/overlaybd/cache/full_file_cache/CMakeFiles/full_file_cache_lib.dir/cache_pool.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/full_file_cache",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/full_file_cache_lib.dir/cache_store.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/full_file_cache/cache_store.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/full_file_cache/cache_store.cpp",
+  "output": "src/overlaybd/cache/full_file_cache/CMakeFiles/full_file_cache_lib.dir/cache_store.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/ocf_env_lib.dir/ease_bindings/env/ocf_env.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env/ocf_env.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env/ocf_env.cpp",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_env_lib.dir/ease_bindings/env/ocf_env.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/ocf_env_lib.dir/ease_bindings/env/utils_mpool.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env/utils_mpool.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env/utils_mpool.cpp",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_env_lib.dir/ease_bindings/env/utils_mpool.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/cleaning/acp.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/cleaning/acp.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/cleaning/acp.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/cleaning/acp.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/cleaning/alru.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/cleaning/alru.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/cleaning/alru.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/cleaning/alru.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/cleaning/cleaning.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/cleaning/cleaning.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/cleaning/cleaning.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/cleaning/cleaning.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/cleaning/nop.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/cleaning/nop.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/cleaning/nop.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/cleaning/nop.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/concurrency/ocf_cache_line_concurrency.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/concurrency/ocf_cache_line_concurrency.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/concurrency/ocf_cache_line_concurrency.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/concurrency/ocf_cache_line_concurrency.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/concurrency/ocf_concurrency.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/concurrency/ocf_concurrency.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/concurrency/ocf_concurrency.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/concurrency/ocf_concurrency.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/concurrency/ocf_metadata_concurrency.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/concurrency/ocf_metadata_concurrency.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/concurrency/ocf_metadata_concurrency.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/concurrency/ocf_metadata_concurrency.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/concurrency/ocf_mio_concurrency.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/concurrency/ocf_mio_concurrency.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/concurrency/ocf_mio_concurrency.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/concurrency/ocf_mio_concurrency.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/engine/cache_engine.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/cache_engine.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/cache_engine.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/engine/cache_engine.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_bf.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_bf.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_bf.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_bf.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_common.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_common.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_common.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_common.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_d2c.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_d2c.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_d2c.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_d2c.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_discard.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_discard.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_discard.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_discard.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_fast.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_fast.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_fast.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_fast.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_inv.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_inv.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_inv.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_inv.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_ops.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_ops.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_ops.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_ops.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_pt.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_pt.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_pt.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_pt.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_rd.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_rd.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_rd.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_rd.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_wa.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_wa.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_wa.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_wa.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_wb.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_wb.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_wb.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_wb.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_wi.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_wi.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_wi.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_wi.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_wo.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_wo.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_wo.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_wo.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_wt.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_wt.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_wt.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_wt.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_zero.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_zero.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/engine/engine_zero.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/engine/engine_zero.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_cleaning_policy.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_cleaning_policy.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_cleaning_policy.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_cleaning_policy.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_collision.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_collision.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_collision.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_collision.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_core.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_core.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_core.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_core.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_eviction_policy.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_eviction_policy.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_eviction_policy.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_eviction_policy.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_io.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_io.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_io.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_io.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_misc.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_misc.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_misc.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_misc.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_partition.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_partition.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_partition.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_partition.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_raw.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_raw.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_raw.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_raw.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_raw_atomic.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_raw_atomic.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_raw_atomic.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_raw_atomic.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_raw_dynamic.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_raw_dynamic.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_raw_dynamic.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_raw_dynamic.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_raw_volatile.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_raw_volatile.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_raw_volatile.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_raw_volatile.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_segment.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_segment.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_segment.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_segment.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_superblock.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_superblock.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/metadata/metadata_superblock.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/metadata/metadata_superblock.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/mngt/ocf_mngt_cache.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/mngt/ocf_mngt_cache.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/mngt/ocf_mngt_cache.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/mngt/ocf_mngt_cache.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/mngt/ocf_mngt_common.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/mngt/ocf_mngt_common.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/mngt/ocf_mngt_common.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/mngt/ocf_mngt_common.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/mngt/ocf_mngt_core.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/mngt/ocf_mngt_core.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/mngt/ocf_mngt_core.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/mngt/ocf_mngt_core.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/mngt/ocf_mngt_core_pool.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/mngt/ocf_mngt_core_pool.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/mngt/ocf_mngt_core_pool.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/mngt/ocf_mngt_core_pool.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/mngt/ocf_mngt_flush.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/mngt/ocf_mngt_flush.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/mngt/ocf_mngt_flush.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/mngt/ocf_mngt_flush.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/mngt/ocf_mngt_io_class.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/mngt/ocf_mngt_io_class.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/mngt/ocf_mngt_io_class.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/mngt/ocf_mngt_io_class.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/mngt/ocf_mngt_misc.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/mngt/ocf_mngt_misc.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/mngt/ocf_mngt_misc.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/mngt/ocf_mngt_misc.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/ocf_cache.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_cache.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_cache.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/ocf_cache.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/ocf_core.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_core.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_core.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/ocf_core.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/ocf_ctx.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_ctx.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_ctx.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/ocf_ctx.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/ocf_io.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_io.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_io.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/ocf_io.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/ocf_io_class.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_io_class.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_io_class.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/ocf_io_class.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/ocf_logger.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_logger.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_logger.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/ocf_logger.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/ocf_lru.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_lru.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_lru.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/ocf_lru.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/ocf_metadata.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_metadata.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_metadata.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/ocf_metadata.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/ocf_queue.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_queue.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_queue.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/ocf_queue.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/ocf_request.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_request.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_request.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/ocf_request.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/ocf_seq_cutoff.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_seq_cutoff.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_seq_cutoff.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/ocf_seq_cutoff.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/ocf_space.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_space.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_space.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/ocf_space.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/ocf_stats.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_stats.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_stats.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/ocf_stats.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/ocf_stats_builder.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_stats_builder.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_stats_builder.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/ocf_stats_builder.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/ocf_trace.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_trace.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_trace.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/ocf_trace.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/ocf_volume.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_volume.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/ocf_volume.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/ocf_volume.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/promotion/nhit/nhit.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/promotion/nhit/nhit.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/promotion/nhit/nhit.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/promotion/nhit/nhit.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/promotion/nhit/nhit_hash.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/promotion/nhit/nhit_hash.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/promotion/nhit/nhit_hash.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/promotion/nhit/nhit_hash.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/promotion/promotion.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/promotion/promotion.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/promotion/promotion.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/promotion/promotion.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_alock.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_alock.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_alock.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_alock.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_async_lock.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_async_lock.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_async_lock.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_async_lock.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_cache_line.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_cache_line.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_cache_line.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_cache_line.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_cleaner.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_cleaner.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_cleaner.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_cleaner.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_io.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_io.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_io.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_io.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_list.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_list.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_list.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_list.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_pipeline.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_pipeline.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_pipeline.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_pipeline.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_rbtree.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_rbtree.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_rbtree.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_rbtree.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_realloc.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_realloc.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_realloc.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_realloc.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_refcnt.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_refcnt.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_refcnt.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_refcnt.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_request.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_request.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_request.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_request.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/cc -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -Wno-sign-compare -o CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_user_part.c.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_user_part.c",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf/src/utils/utils_user_part.c",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_lib.dir/ocf/src/utils/utils_user_part.c.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/ocf_cache_lib.dir/ease_bindings/ctx.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/ctx.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/ctx.cpp",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_cache_lib.dir/ease_bindings/ctx.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/ocf_cache_lib.dir/ease_bindings/provider.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/provider.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/provider.cpp",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_cache_lib.dir/ease_bindings/provider.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/ocf_cache_lib.dir/ease_bindings/queue.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/queue.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/queue.cpp",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_cache_lib.dir/ease_bindings/queue.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/ocf_cache_lib.dir/ease_bindings/volume.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/volume.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/volume.cpp",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_cache_lib.dir/ease_bindings/volume.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/ocf_cache_lib.dir/ocf_cache.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf_cache.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf_cache.cpp",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_cache_lib.dir/ocf_cache.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/ocf_cache_lib.dir/ocf_namespace.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf_namespace.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ocf_namespace.cpp",
+  "output": "src/overlaybd/cache/ocf_cache/CMakeFiles/ocf_cache_lib.dir/ocf_namespace.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/test",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/ocf_perf_test.dir/ocf_perf_test.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/test/ocf_perf_test.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/test/ocf_perf_test.cpp",
+  "output": "src/overlaybd/cache/ocf_cache/test/CMakeFiles/ocf_perf_test.dir/ocf_perf_test.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/download_cache",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/download_cache_lib.dir/download_cache.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/download_cache/download_cache.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/download_cache/download_cache.cpp",
+  "output": "src/overlaybd/cache/download_cache/CMakeFiles/download_cache_lib.dir/download_cache.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/gzip_cache",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/gzip_cache_lib.dir/cached_fs.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/gzip_cache/cached_fs.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/gzip_cache/cached_fs.cpp",
+  "output": "src/overlaybd/cache/gzip_cache/CMakeFiles/gzip_cache_lib.dir/cached_fs.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/test",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/include -I/googletest/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/cache_test.dir/cache_test.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/test/cache_test.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/test/cache_test.cpp",
+  "output": "src/overlaybd/cache/test/CMakeFiles/cache_test.dir/cache_test.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/tar_lib.dir/header.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/header.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/header.cpp",
+  "output": "src/overlaybd/tar/CMakeFiles/tar_lib.dir/header.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/tar_lib.dir/libtar.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/libtar.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/libtar.cpp",
+  "output": "src/overlaybd/tar/CMakeFiles/tar_lib.dir/libtar.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/tar_lib.dir/tar_file.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/tar_file.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/tar_file.cpp",
+  "output": "src/overlaybd/tar/CMakeFiles/tar_lib.dir/tar_file.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/tar_lib.dir/whiteout.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/whiteout.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/whiteout.cpp",
+  "output": "src/overlaybd/tar/CMakeFiles/tar_lib.dir/whiteout.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/test",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/include -I/googletest/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/untar_test.dir/test.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/test/test.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/test/test.cpp",
+  "output": "src/overlaybd/tar/test/CMakeFiles/untar_test.dir/test.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -include/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-src/config.h -o CMakeFiles/erofs_lib.dir/erofs_common.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs/erofs_common.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs/erofs_common.cpp",
+  "output": "src/overlaybd/tar/erofs/CMakeFiles/erofs_lib.dir/erofs_common.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -include/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-src/config.h -o CMakeFiles/erofs_lib.dir/erofs_fs.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs/erofs_fs.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs/erofs_fs.cpp",
+  "output": "src/overlaybd/tar/erofs/CMakeFiles/erofs_lib.dir/erofs_fs.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -include/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-src/config.h -o CMakeFiles/erofs_lib.dir/liberofs.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs/liberofs.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs/liberofs.cpp",
+  "output": "src/overlaybd/tar/erofs/CMakeFiles/erofs_lib.dir/liberofs.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs/test",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/include -I/googletest/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/erofs_simple_test.dir/erofs_simple.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs/test/erofs_simple.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs/test/erofs_simple.cpp",
+  "output": "src/overlaybd/tar/erofs/test/CMakeFiles/erofs_simple_test.dir/erofs_simple.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs/test",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/include -I/googletest/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/erofs_stress_test.dir/erofs_stress.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs/test/erofs_stress.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs/test/erofs_stress.cpp",
+  "output": "src/overlaybd/tar/erofs/test/CMakeFiles/erofs_stress_test.dir/erofs_stress.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs/test",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/include -I/googletest/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/erofs_stress_test.dir/erofs_stress_base.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs/test/erofs_stress_base.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/tar/erofs/test/erofs_stress_base.cpp",
+  "output": "src/overlaybd/tar/erofs/test/CMakeFiles/erofs_stress_test.dir/erofs_stress_base.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/gzip",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/gzip_lib.dir/gz.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/gzip/gz.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/gzip/gz.cpp",
+  "output": "src/overlaybd/gzip/CMakeFiles/gzip_lib.dir/gz.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/gzindex",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/gzindex_lib.dir/gzfile.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/gzindex/gzfile.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/gzindex/gzfile.cpp",
+  "output": "src/overlaybd/gzindex/CMakeFiles/gzindex_lib.dir/gzfile.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/gzindex",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/gzindex_lib.dir/gzip_index_create.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/gzindex/gzip_index_create.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/gzindex/gzip_index_create.cpp",
+  "output": "src/overlaybd/gzindex/CMakeFiles/gzindex_lib.dir/gzip_index_create.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/gzindex/test",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/include -I/googletest/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/gzindex_test.dir/test.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/gzindex/test/test.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/gzindex/test/test.cpp",
+  "output": "src/overlaybd/gzindex/test/CMakeFiles/gzindex_test.dir/test.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/stream_convertor",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -DYAML_CPP_STATIC_DEFINE -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/yaml-cpp-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/overlaybd-streamConv.dir/stream_conv.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/stream_convertor/stream_conv.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/stream_convertor/stream_conv.cpp",
+  "output": "src/overlaybd/stream_convertor/CMakeFiles/overlaybd-streamConv.dir/stream_conv.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/tools",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -o CMakeFiles/checksum_lib.dir/sha256file.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/tools/sha256file.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/tools/sha256file.cpp",
+  "output": "src/tools/CMakeFiles/checksum_lib.dir/sha256file.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/tools",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/overlaybd-commit.dir/overlaybd-commit.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/tools/overlaybd-commit.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/tools/overlaybd-commit.cpp",
+  "output": "src/tools/CMakeFiles/overlaybd-commit.dir/overlaybd-commit.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/tools",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/overlaybd-merge.dir/overlaybd-merge.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/tools/overlaybd-merge.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/tools/overlaybd-merge.cpp",
+  "output": "src/tools/CMakeFiles/overlaybd-merge.dir/overlaybd-merge.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/tools",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/overlaybd-create.dir/overlaybd-create.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/tools/overlaybd-create.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/tools/overlaybd-create.cpp",
+  "output": "src/tools/CMakeFiles/overlaybd-create.dir/overlaybd-create.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/tools",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/overlaybd-zfile.dir/overlaybd-zfile.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/tools/overlaybd-zfile.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/tools/overlaybd-zfile.cpp",
+  "output": "src/tools/CMakeFiles/overlaybd-zfile.dir/overlaybd-zfile.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/tools",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/overlaybd-apply.dir/overlaybd-apply.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/tools/overlaybd-apply.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/tools/overlaybd-apply.cpp",
+  "output": "src/tools/CMakeFiles/overlaybd-apply.dir/overlaybd-apply.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/tools",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/turboOCI-apply.dir/turboOCI-apply.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/tools/turboOCI-apply.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/tools/turboOCI-apply.cpp",
+  "output": "src/tools/CMakeFiles/turboOCI-apply.dir/turboOCI-apply.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/test",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/include -I/googletest/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/image_service_test.dir/image_service_test.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/test/image_service_test.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/test/image_service_test.cpp",
+  "output": "src/test/CMakeFiles/image_service_test.dir/image_service_test.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/test",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/include -I/googletest/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/simple_credsrv_test.dir/simple_credsrv_test.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/test/simple_credsrv_test.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/test/simple_credsrv_test.cpp",
+  "output": "src/test/CMakeFiles/simple_credsrv_test.dir/simple_credsrv_test.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/test",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/include -I/googletest/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/trace_test.dir/trace_test.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/test/trace_test.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/test/trace_test.cpp",
+  "output": "src/test/CMakeFiles/trace_test.dir/trace_test.cpp.o"
+},
+{
+  "directory": "/root/DADI_OverlayBD_demo/overlaybd/src/test",
+  "command": "/usr/bin/c++ -DRAPIDJSON_HAS_STDSTRING=1 -I/include -I/googletest/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/photon-src/include -I/root/DADI_OverlayBD_demo/overlaybd/_deps/rapidjson-src/include -I/root/DADI_OverlayBD_demo/overlaybd/FastCDC-c -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/include -I/root/DADI_OverlayBD_demo/overlaybd/src/overlaybd/cache/ocf_cache/ease_bindings/env  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF -std=gnu++14 -msse4.2 -mcrc32 -o CMakeFiles/trace_test.dir/__/tools/comm_func.cpp.o -c /root/DADI_OverlayBD_demo/overlaybd/src/tools/comm_func.cpp",
+  "file": "/root/DADI_OverlayBD_demo/overlaybd/src/tools/comm_func.cpp",
+  "output": "src/test/CMakeFiles/trace_test.dir/__/tools/comm_func.cpp.o"
+}
+]

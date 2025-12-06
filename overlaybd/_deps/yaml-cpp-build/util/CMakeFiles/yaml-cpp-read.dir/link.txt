@@ -1,0 +1,1 @@
+/usr/bin/c++  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF "CMakeFiles/yaml-cpp-read.dir/read.cpp.o" -o ../../../build/output/read  ../../../build/output/libyaml-cpp.a -static-libgcc  

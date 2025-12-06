@@ -319,7 +319,7 @@ var recordTraceCommand = &cli.Command{
 		}
 
 		// Load trace file into content, and generate an acceleration layer
-		loader := obdconv.NewContentLoaderWithFsType(true, fsType, obdconv.ContentFile{SrcFilePath: traceFile, DstFileName: "trace"})
+		loader := obdconv.NewContentLoaderWithFsType(true, fsType, obdconv.ZFileConfig{}, obdconv.ContentFile{SrcFilePath: traceFile, DstFileName: "trace"})
 		accelLayer, err := loader.Load(ctx, cs)
 		if err != nil {
 			return fmt.Errorf("loadCommittedSnapshotInContent failed: %v", err)

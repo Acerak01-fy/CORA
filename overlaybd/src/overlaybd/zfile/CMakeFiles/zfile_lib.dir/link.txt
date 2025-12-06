@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../build/output/libzfile_lib.a CMakeFiles/zfile_lib.dir/compressor.cpp.o CMakeFiles/zfile_lib.dir/fastcdc_wrapper.cpp.o CMakeFiles/zfile_lib.dir/zfile.cpp.o "CMakeFiles/zfile_lib.dir/lz4/lz4-qat.c.o" CMakeFiles/zfile_lib.dir/lz4/lz4.c.o CMakeFiles/zfile_lib.dir/lz4/test.c.o
+/usr/bin/ranlib ../../../build/output/libzfile_lib.a

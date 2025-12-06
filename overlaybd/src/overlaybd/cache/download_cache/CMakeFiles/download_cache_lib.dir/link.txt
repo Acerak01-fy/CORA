@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../build/output/libdownload_cache_lib.a CMakeFiles/download_cache_lib.dir/download_cache.cpp.o
+/usr/bin/ranlib ../../../../build/output/libdownload_cache_lib.a

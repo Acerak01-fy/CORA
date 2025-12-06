@@ -61,6 +61,26 @@ var convertCommand = &cli.Command{
 			Usage: "virtual block device size (GB)",
 			Value: 64,
 		},
+		&cli.BoolFlag{
+			Name:  "fastcdc",
+			Usage: "use FastCDC for content-defined chunking (better deduplication)",
+			Value: false,
+		},
+		&cli.IntFlag{
+			Name:  "cdc_min",
+			Usage: "FastCDC minimum chunk size in KB [2-64]",
+			Value: 2,
+		},
+		&cli.IntFlag{
+			Name:  "cdc_avg",
+			Usage: "FastCDC average chunk size in KB [4-64]",
+			Value: 8,
+		},
+		&cli.IntFlag{
+			Name:  "cdc_max",
+			Usage: "FastCDC maximum chunk size in KB [8-64]",
+			Value: 64,
+		},
 	),
 	Action: func(context *cli.Context) error {
 		var (
@@ -107,6 +127,15 @@ var convertCommand = &cli.Command{
 		vsize := context.Int("vsize")
 		fmt.Printf("vsize: %d GB\n", vsize)
 		obdOpts = append(obdOpts, obdconv.WithVsize(vsize))
+		
+		// FastCDC options
+		if context.Bool("fastcdc") {
+			cdcMin := context.Int("cdc_min")
+			cdcAvg := context.Int("cdc_avg")
+			cdcMax := context.Int("cdc_max")
+			fmt.Printf("FastCDC enabled: min=%dKB, avg=%dKB, max=%dKB\n", cdcMin, cdcAvg, cdcMax)
+			obdOpts = append(obdOpts, obdconv.WithFastCDC(true, cdcMin, cdcAvg, cdcMax))
+		}
 
 		resolver, err := commands.GetResolver(ctx, context)
 		if err != nil {

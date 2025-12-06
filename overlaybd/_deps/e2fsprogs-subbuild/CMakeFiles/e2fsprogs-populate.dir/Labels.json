@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-subbuild/CMakeFiles/e2fsprogs-populate"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-subbuild/CMakeFiles/e2fsprogs-populate.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-subbuild/CMakeFiles/e2fsprogs-populate-complete.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-subbuild/e2fsprogs-populate-prefix/src/e2fsprogs-populate-stamp/e2fsprogs-populate-build.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-subbuild/e2fsprogs-populate-prefix/src/e2fsprogs-populate-stamp/e2fsprogs-populate-configure.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-subbuild/e2fsprogs-populate-prefix/src/e2fsprogs-populate-stamp/e2fsprogs-populate-download.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-subbuild/e2fsprogs-populate-prefix/src/e2fsprogs-populate-stamp/e2fsprogs-populate-install.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-subbuild/e2fsprogs-populate-prefix/src/e2fsprogs-populate-stamp/e2fsprogs-populate-mkdir.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-subbuild/e2fsprogs-populate-prefix/src/e2fsprogs-populate-stamp/e2fsprogs-populate-patch.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-subbuild/e2fsprogs-populate-prefix/src/e2fsprogs-populate-stamp/e2fsprogs-populate-test.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/e2fsprogs-subbuild/e2fsprogs-populate-prefix/src/e2fsprogs-populate-stamp/e2fsprogs-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"e2fsprogs-populate"
+		],
+		"name" : "e2fsprogs-populate"
+	}
+}

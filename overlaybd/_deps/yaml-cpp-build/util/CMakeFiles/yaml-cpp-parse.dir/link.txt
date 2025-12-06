@@ -1,0 +1,1 @@
+/usr/bin/c++  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF "CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o" -o ../../../build/output/parse  ../../../build/output/libyaml-cpp.a -static-libgcc  

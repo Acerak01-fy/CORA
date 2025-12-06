@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../build/output/libchecksum_lib.a CMakeFiles/checksum_lib.dir/sha256file.cpp.o
+/usr/bin/ranlib ../../build/output/libchecksum_lib.a

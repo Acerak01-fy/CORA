@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../build/output/libregistryfs_lib.a CMakeFiles/registryfs_lib.dir/registryfs.cpp.o CMakeFiles/registryfs_lib.dir/registryfs_v2.cpp.o
+/usr/bin/ranlib ../../../build/output/libregistryfs_lib.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../build/output/liblsmt_lib.a CMakeFiles/lsmt_lib.dir/file.cpp.o CMakeFiles/lsmt_lib.dir/index.cpp.o
+/usr/bin/ranlib ../../../build/output/liblsmt_lib.a

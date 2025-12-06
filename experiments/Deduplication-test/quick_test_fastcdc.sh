@@ -12,13 +12,13 @@ GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
-OVERLAYBD_BIN="/home/wfy/DADI_OverlayBD_demo/overlaybd/build/output/overlaybd-zfile"
+OVERLAYBD_BIN="/root/DADI_OverlayBD_demo/overlaybd/build/output/overlaybd-zfile"
 TEST_DIR="./quick_test_fastcdc"
 
 # 检查是否在 overlaybd 目录
 if [ ! -f "CMakeLists.txt" ] || [ ! -d "src/overlaybd" ]; then
     echo "错误：请在 overlaybd 目录下运行此脚本"
-    echo "正确路径应该是：/home/wfy/DADI_OverlayBD_demo/overlaybd"
+    echo "正确路径应该是：/root/DADI_OverlayBD_demo/overlaybd"
     exit 1
 fi
 

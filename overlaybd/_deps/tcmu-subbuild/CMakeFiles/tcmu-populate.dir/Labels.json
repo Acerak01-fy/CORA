@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-subbuild/CMakeFiles/tcmu-populate"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-subbuild/CMakeFiles/tcmu-populate.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-subbuild/CMakeFiles/tcmu-populate-complete.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-subbuild/tcmu-populate-prefix/src/tcmu-populate-stamp/tcmu-populate-build.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-subbuild/tcmu-populate-prefix/src/tcmu-populate-stamp/tcmu-populate-configure.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-subbuild/tcmu-populate-prefix/src/tcmu-populate-stamp/tcmu-populate-download.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-subbuild/tcmu-populate-prefix/src/tcmu-populate-stamp/tcmu-populate-install.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-subbuild/tcmu-populate-prefix/src/tcmu-populate-stamp/tcmu-populate-mkdir.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-subbuild/tcmu-populate-prefix/src/tcmu-populate-stamp/tcmu-populate-patch.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-subbuild/tcmu-populate-prefix/src/tcmu-populate-stamp/tcmu-populate-test.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/tcmu-subbuild/tcmu-populate-prefix/src/tcmu-populate-stamp/tcmu-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tcmu-populate"
+		],
+		"name" : "tcmu-populate"
+	}
+}

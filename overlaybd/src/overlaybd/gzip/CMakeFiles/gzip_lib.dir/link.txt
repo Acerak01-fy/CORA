@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../build/output/libgzip_lib.a CMakeFiles/gzip_lib.dir/gz.cpp.o
+/usr/bin/ranlib ../../../build/output/libgzip_lib.a

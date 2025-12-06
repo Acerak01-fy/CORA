@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../build/output/libfull_file_cache_lib.a CMakeFiles/full_file_cache_lib.dir/cache_pool.cpp.o CMakeFiles/full_file_cache_lib.dir/cache_store.cpp.o
+/usr/bin/ranlib ../../../../build/output/libfull_file_cache_lib.a

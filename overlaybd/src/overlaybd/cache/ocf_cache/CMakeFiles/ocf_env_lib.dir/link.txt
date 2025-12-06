@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../build/output/libocf_env_lib.a CMakeFiles/ocf_env_lib.dir/ease_bindings/env/ocf_env.cpp.o CMakeFiles/ocf_env_lib.dir/ease_bindings/env/utils_mpool.cpp.o
+/usr/bin/ranlib ../../../../build/output/libocf_env_lib.a

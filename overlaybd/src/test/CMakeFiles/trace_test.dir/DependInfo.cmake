@@ -1,0 +1,20 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/root/DADI_OverlayBD_demo/overlaybd/src/tools/comm_func.cpp" "src/test/CMakeFiles/trace_test.dir/__/tools/comm_func.cpp.o" "gcc" "src/test/CMakeFiles/trace_test.dir/__/tools/comm_func.cpp.o.d"
+  "/root/DADI_OverlayBD_demo/overlaybd/src/test/trace_test.cpp" "src/test/CMakeFiles/trace_test.dir/trace_test.cpp.o" "gcc" "src/test/CMakeFiles/trace_test.dir/trace_test.cpp.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

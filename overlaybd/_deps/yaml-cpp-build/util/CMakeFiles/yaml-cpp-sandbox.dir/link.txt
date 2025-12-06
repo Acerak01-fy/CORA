@@ -1,0 +1,1 @@
+/usr/bin/c++  -fpic -Wall -Werror=sign-compare -DOVERLAYBD_VER=OFF "CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.o" -o ../../../build/output/sandbox  ../../../build/output/libyaml-cpp.a -static-libgcc  

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../build/output/libtcmu.a CMakeFiles/tcmu_static.dir/configfs.cpp.o CMakeFiles/tcmu_static.dir/api.cpp.o CMakeFiles/tcmu_static.dir/libtcmu.cpp.o CMakeFiles/tcmu_static.dir/scsi.cpp.o
+/usr/bin/ranlib ../../build/output/libtcmu.a

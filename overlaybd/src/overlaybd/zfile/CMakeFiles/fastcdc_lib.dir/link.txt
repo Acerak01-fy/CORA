@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../build/output/libfastcdc_lib.a "CMakeFiles/fastcdc_lib.dir/__/__/__/FastCDC-c/fastcdc.c.o"
+/usr/bin/ranlib ../../../build/output/libfastcdc_lib.a

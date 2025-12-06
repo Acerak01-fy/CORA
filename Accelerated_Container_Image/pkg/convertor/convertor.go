@@ -69,8 +69,12 @@ var (
 )
 
 type ZFileConfig struct {
-	Algorithm string `json:"algorithm"`
-	BlockSize int    `json:"blockSize"`
+	Algorithm  string `json:"algorithm"`
+	BlockSize  int    `json:"blockSize"`
+	UseFastCDC bool   `json:"useFastCDC,omitempty"`
+	CDCMinSize int    `json:"cdcMinSize,omitempty"` // in KB
+	CDCAvgSize int    `json:"cdcAvgSize,omitempty"` // in KB
+	CDCMaxSize int    `json:"cdcMaxSize,omitempty"` // in KB
 }
 
 type ImageConvertor interface {
@@ -87,11 +91,12 @@ func (l *Layer) GetInfo() (ocispec.Descriptor, digest.Digest) {
 }
 
 // contentLoader can load multiple files into content.Store service, and return an oci.v1.tar layer.
-func NewContentLoaderWithFsType(isAccelLayer bool, fsType string, files ...ContentFile) *contentLoader {
+func NewContentLoaderWithFsType(isAccelLayer bool, fsType string, zfileCfg ZFileConfig, files ...ContentFile) *contentLoader {
 	return &contentLoader{
 		files:        files,
 		isAccelLayer: isAccelLayer,
 		fsType:       fsType,
+		zfileCfg:     zfileCfg,
 	}
 }
 
@@ -104,6 +109,7 @@ type contentLoader struct {
 	files        []ContentFile
 	isAccelLayer bool
 	fsType       string
+	zfileCfg     ZFileConfig
 }
 
 func (loader *contentLoader) Load(ctx context.Context, cs content.Store) (l Layer, err error) {
@@ -126,20 +132,28 @@ func (loader *contentLoader) Load(ctx context.Context, cs content.Store) (l Laye
 		}
 	}()
 
-	for _, loader := range loader.files {
-		if loader.DstFileName == "overlaybd.commit" {
-			commitPath := filepath.Dir(loader.SrcFilePath)
+	for _, file := range loader.files {
+		if file.DstFileName == "overlaybd.commit" {
+			commitPath := filepath.Dir(file.SrcFilePath)
 			commitFile := filepath.Join(commitPath, "overlaybd.commit")
 			srcPathList = append(srcPathList, commitFile)
 
-			err := utils.Commit(ctx, commitPath, commitPath, true, "-z", "-t")
+			// Build commit options
+			commitOpts := []string{"-z", "-t"}
+			if loader.zfileCfg.UseFastCDC {
+				commitOpts = append(commitOpts, "--fastcdc")
+				commitOpts = append(commitOpts, fmt.Sprintf("--cdc_min=%d", loader.zfileCfg.CDCMinSize))
+				commitOpts = append(commitOpts, fmt.Sprintf("--cdc_avg=%d", loader.zfileCfg.CDCAvgSize))
+				commitOpts = append(commitOpts, fmt.Sprintf("--cdc_max=%d", loader.zfileCfg.CDCMaxSize))
+			}
+			err := utils.Commit(ctx, commitPath, commitPath, true, commitOpts...)
 			if err != nil {
 				return emptyLayer, fmt.Errorf("failed to overlaybd-commit for sealed file: %w", err)
 			}
 
 			srcFile, err := os.Open(commitFile)
 			if err != nil {
-				return emptyLayer, fmt.Errorf("failed to open src file of %s: %w", loader.SrcFilePath, err)
+				return emptyLayer, fmt.Errorf("failed to open src file of %s: %w", file.SrcFilePath, err)
 			}
 			openedSrcFile = append(openedSrcFile, srcFile)
 			_, err = io.Copy(countWriter, bufio.NewReader(srcFile))
@@ -149,20 +163,20 @@ func (loader *contentLoader) Load(ctx context.Context, cs content.Store) (l Laye
 			}
 		} else {
 			// normal file
-			srcPathList = append(srcPathList, loader.SrcFilePath)
-			srcFile, err := os.Open(loader.SrcFilePath)
+			srcPathList = append(srcPathList, file.SrcFilePath)
+			srcFile, err := os.Open(file.SrcFilePath)
 			if err != nil {
-				return emptyLayer, fmt.Errorf("failed to open src file of %s: %w", loader.SrcFilePath, err)
+				return emptyLayer, fmt.Errorf("failed to open src file of %s: %w", file.SrcFilePath, err)
 			}
 			openedSrcFile = append(openedSrcFile, srcFile)
 
 			fi, err := srcFile.Stat()
 			if err != nil {
-				return emptyLayer, fmt.Errorf("failed to get info of %s: %w", loader.SrcFilePath, err)
+				return emptyLayer, fmt.Errorf("failed to get info of %s: %w", file.SrcFilePath, err)
 			}
 
 			if err := tarWriter.WriteHeader(&tar.Header{
-				Name:     loader.DstFileName,
+				Name:     file.DstFileName,
 				Mode:     0444,
 				Size:     fi.Size(),
 				Typeflag: tar.TypeReg,
@@ -473,7 +487,7 @@ func (c *overlaybdConvertor) convertLayers(ctx context.Context, srcDescs []ocisp
 			return emptyLayer, err
 		}
 
-		loader := NewContentLoaderWithFsType(false, fsType, ContentFile{
+		loader := NewContentLoaderWithFsType(false, fsType, c.zfileCfg, ContentFile{
 			info.Labels[label.LocalOverlayBDPath],
 			"overlaybd.commit"})
 		return loader.Load(ctx, c.cs)
@@ -677,14 +691,18 @@ func (wc *writeCountWrapper) Write(p []byte) (n int, err error) {
 
 // NOTE: based on https://github.com/containerd/containerd/blob/v1.6.8/images/converter/converter.go#L29-L71
 type options struct {
-	fsType    string
-	dbstr     string
-	imgRef    string
-	algorithm string
-	blockSize int
-	vsize     int
-	resolver  remotes.Resolver
-	client    *containerd.Client
+	fsType     string
+	dbstr      string
+	imgRef     string
+	algorithm  string
+	blockSize  int
+	vsize      int
+	useFastCDC bool
+	cdcMinSize int
+	cdcAvgSize int
+	cdcMaxSize int
+	resolver   remotes.Resolver
+	client     *containerd.Client
 }
 
 type Option func(o *options) error
@@ -745,6 +763,16 @@ func WithClient(client *containerd.Client) Option {
 	}
 }
 
+func WithFastCDC(enable bool, minSize, avgSize, maxSize int) Option {
+	return func(o *options) error {
+		o.useFastCDC = enable
+		o.cdcMinSize = minSize
+		o.cdcAvgSize = avgSize
+		o.cdcMaxSize = maxSize
+		return nil
+	}
+}
+
 func IndexConvertFunc(opts ...Option) converter.ConvertFunc {
 	return func(ctx context.Context, cs content.Store, desc ocispec.Descriptor) (*ocispec.Descriptor, error) {
 		var copts options
@@ -767,8 +795,12 @@ func IndexConvertFunc(opts ...Option) converter.ConvertFunc {
 			return nil, fmt.Errorf("failed to read manifest: %w", err)
 		}
 		zfileCfg := ZFileConfig{
-			Algorithm: copts.algorithm,
-			BlockSize: copts.blockSize,
+			Algorithm:  copts.algorithm,
+			BlockSize:  copts.blockSize,
+			UseFastCDC: copts.useFastCDC,
+			CDCMinSize: copts.cdcMinSize,
+			CDCAvgSize: copts.cdcAvgSize,
+			CDCMaxSize: copts.cdcMaxSize,
 		}
 		c, err := NewOverlaybdConvertor(ctx, cs, sn, copts.resolver, imgRef, copts.dbstr, zfileCfg, copts.vsize)
 		if err != nil {

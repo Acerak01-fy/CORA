@@ -1,0 +1,14 @@
+# Target labels
+ erofs-utils-populate
+# Source files and their labels
+/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/CMakeFiles/erofs-utils-populate
+/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/CMakeFiles/erofs-utils-populate.rule
+/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/CMakeFiles/erofs-utils-populate-complete.rule
+/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-build.rule
+/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-configure.rule
+/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-download.rule
+/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-install.rule
+/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-mkdir.rule
+/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-patch.rule
+/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-test.rule
+/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-update.rule

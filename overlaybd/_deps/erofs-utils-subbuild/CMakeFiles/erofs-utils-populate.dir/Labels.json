@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/CMakeFiles/erofs-utils-populate"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/CMakeFiles/erofs-utils-populate.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/CMakeFiles/erofs-utils-populate-complete.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-build.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-configure.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-download.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-install.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-mkdir.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-patch.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-test.rule"
+		},
+		{
+			"file" : "/root/DADI_OverlayBD_demo/overlaybd/_deps/erofs-utils-subbuild/erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"erofs-utils-populate"
+		],
+		"name" : "erofs-utils-populate"
+	}
+}

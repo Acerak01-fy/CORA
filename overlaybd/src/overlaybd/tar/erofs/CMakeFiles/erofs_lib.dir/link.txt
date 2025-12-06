@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../build/output/liberofs_lib.a CMakeFiles/erofs_lib.dir/erofs_common.cpp.o CMakeFiles/erofs_lib.dir/erofs_fs.cpp.o CMakeFiles/erofs_lib.dir/liberofs.cpp.o
+/usr/bin/ranlib ../../../../build/output/liberofs_lib.a

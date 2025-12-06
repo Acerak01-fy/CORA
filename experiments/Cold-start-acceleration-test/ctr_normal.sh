@@ -36,7 +36,8 @@ CTR="/opt/overlaybd/snapshotter/ctr"
 #IMAGE="docker.io/overlaybd/redis:7.2.3_obd"
 #IMAGE="xfusion5:5000/redis:7.2.3_obd"
 #IMAGE="xfusion5:5000/tst-lazy-pull:latest_obd"
-IMAGE="xfusion5:5000/tst-lazy-pull:latest"
+#IMAGE="xfusion5:5000/tst-lazy-pull:latest"
+IMAGE="xfusion5:5000/tst-lazy-pull:latest_wfy"
 
 $CTR i rm $IMAGE 2>/dev/null
 nerdctl image prune --force --all 2>/dev/null
@@ -68,7 +69,7 @@ RUN_START=$(date +%s.%N)
 
 #$CTR run --net-host --snapshotter=overlaybd --rm -t $IMAGE demo
 # 显式执行 Dockerfile 定义的命令，确保产生负载
-$CTR run --net-host --snapshotter=overlaybd --rm $IMAGE demo sh -c "cd /testdir && ./md5check.sh random_file_1.dat-md5.txt ."
+$CTR run --net-host --snapshotter=overlaybd --rm $IMAGE demo sh -c "cd /testdir && ./md5check.sh random_file_1G_1.dat-md5.txt ."
 RUN_END=$(date +%s.%N)
 RUN_TIME=$(echo "$RUN_END - $RUN_START" | bc)
 

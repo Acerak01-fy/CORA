@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../build/output/libcache_lib.a CMakeFiles/cache_lib.dir/cache.cpp.o CMakeFiles/cache_lib.dir/cached_fs.cpp.o CMakeFiles/cache_lib.dir/store.cpp.o
+/usr/bin/ranlib ../../../build/output/libcache_lib.a

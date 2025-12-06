@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../build/output/libocf_cache_lib.a CMakeFiles/ocf_cache_lib.dir/ease_bindings/ctx.cpp.o CMakeFiles/ocf_cache_lib.dir/ease_bindings/provider.cpp.o CMakeFiles/ocf_cache_lib.dir/ease_bindings/queue.cpp.o CMakeFiles/ocf_cache_lib.dir/ease_bindings/volume.cpp.o CMakeFiles/ocf_cache_lib.dir/ocf_cache.cpp.o CMakeFiles/ocf_cache_lib.dir/ocf_namespace.cpp.o
+/usr/bin/ranlib ../../../../build/output/libocf_cache_lib.a
