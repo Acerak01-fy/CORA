@@ -10,10 +10,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.26.5/CMakeSystem.cmake"
   "CMakeLists.txt"
   "e2fsprogs-populate-prefix/tmp/e2fsprogs-populate-mkdirs.cmake"
-  "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake"
   "/usr/share/cmake/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake"
-  "/usr/share/cmake/Modules/CMakeSystem.cmake.in"
   "/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
   "/usr/share/cmake/Modules/ExternalProject.cmake"
@@ -34,7 +32,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.26.5/CMakeSystem.cmake"
   "e2fsprogs-populate-prefix/tmp/e2fsprogs-populate-mkdirs.cmake"
   "e2fsprogs-populate-prefix/tmp/e2fsprogs-populate-gitclone.cmake"
   "e2fsprogs-populate-prefix/src/e2fsprogs-populate-stamp/e2fsprogs-populate-gitinfo.txt"

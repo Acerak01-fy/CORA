@@ -35,7 +35,7 @@ public:
     const static uint8_t MINI_LZO = 0;
     const static uint8_t LZ4 = 1;
     const static uint8_t ZSTD = 2;
-    const static uint32_t DEFAULT_BLOCK_SIZE = 4096; // 8192;//32768;
+    const static uint32_t DEFAULT_BLOCK_SIZE = 8192; // 4096;// 8192;//32768;
 
     uint32_t block_size = DEFAULT_BLOCK_SIZE;
     uint8_t algo = LZ4; // algorithm

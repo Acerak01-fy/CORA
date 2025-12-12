@@ -10,10 +10,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.26.5/CMakeSystem.cmake"
   "CMakeLists.txt"
   "erofs-utils-populate-prefix/tmp/erofs-utils-populate-mkdirs.cmake"
-  "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake"
   "/usr/share/cmake/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake"
-  "/usr/share/cmake/Modules/CMakeSystem.cmake.in"
   "/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
   "/usr/share/cmake/Modules/ExternalProject.cmake"
@@ -34,7 +32,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.26.5/CMakeSystem.cmake"
   "erofs-utils-populate-prefix/tmp/erofs-utils-populate-mkdirs.cmake"
   "erofs-utils-populate-prefix/tmp/erofs-utils-populate-gitclone.cmake"
   "erofs-utils-populate-prefix/src/erofs-utils-populate-stamp/erofs-utils-populate-gitinfo.txt"

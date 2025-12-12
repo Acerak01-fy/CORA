@@ -1,0 +1,14 @@
+/opt/overlaybd/bin/overlaybd-tcmu
+/opt/overlaybd/overlaybd-tcmu.service
+/etc/overlaybd/overlaybd.json
+/opt/overlaybd/cred.json
+/opt/overlaybd//lib/libext2fs.so
+/opt/overlaybd//lib/libext2fs.so.2
+/opt/overlaybd//lib/libext2fs.so.2.4
+/opt/overlaybd/bin/overlaybd-commit
+/opt/overlaybd/bin/overlaybd-create
+/opt/overlaybd/bin/overlaybd-zfile
+/opt/overlaybd/bin/overlaybd-apply
+/opt/overlaybd/bin/overlaybd-merge
+/opt/overlaybd/bin/turboOCI-apply
+/opt/overlaybd/baselayers/ext4_64
